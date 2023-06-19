@@ -26,3 +26,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 # gerador-de-cpf
+
+# Estilização
+
+Current status: 
+![image](https://github.com/rodi38/gerador-de-cpf/assets/61064085/3a89da2a-bf8e-4f45-9c4d-4155715d80f0)
