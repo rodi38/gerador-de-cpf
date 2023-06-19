@@ -1,0 +1,21 @@
+<main>
+  <form>
+    <label for="estado">Escolha um estado</label>
+    <select #estado>
+      <option value="Random">Random</option>
+      <option value="0">RS</option>
+      <option value="1">DF, GO, MS, MT e TO</option>
+      <option value="2">AC, AM, AP, PA, RO e RR</option>
+      <option value="3">CE, MA e PI</option>
+      <option value="4">AL, PB, PE, RN</option>
+      <option value="5">BA e SE</option>
+      <option value="6">MG</option>
+      <option value="7">ES e RJ</option>
+      <option value="8">SP</option>
+      <option value="9">PR e SC</option>
+    </select>
+    <button (click)="randomCPF(estado.value, $event)"> Gerar CPF </button>
+    <p placeholder="uasdhasudh"[innerText]="cpf"></p>
+  </form>
+  <app-results></app-results>
+</main>
